@@ -1,0 +1,146 @@
+button{
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+
+button:hover{
+    background-color: aqua;
+}
+
+
+#prodetails .single-pro-img{
+   width: 40%;
+   /* height: 40%; */
+   margin-right: 50px;
+}
+
+#MainImg{
+    /* width: 50vh; */
+    max-height: 75vh;
+}
+
+
+.s-img-grp{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.s-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails{
+    display: flex;
+    margin-right: 20px;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-inline-start: 30px;
+
+}
+#prodetails .single-pro-details h6{
+    font-size: 12px;
+      margin: 10px;
+}
+
+#prodetails .single-pro-details h4{
+    margin: 10px;
+    font-size: 36px;
+    padding: 10px;
+}
+#prodetails .single-pro-details h2{
+    margin: 10px;
+    padding: 10px;
+    font-size: 36px;
+}
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+
+}
+#prodetails .single-pro-details input{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+#prodetails .single-pro-details button{
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+#prodetails .single-pro-details button:hover{
+    background-color: aqua;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
+    margin-right: 20px;
+    padding: 10px;
+    text-align: start;
+
+}
+
+
+
+#Product1{
+    text-align: center;
+    /* background-image: url("img/bg-ice-cream/vicki-cronis-nohe-2hWlrI7_GBE-unsplash.jpg"); */
+}
+
+
+#Product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#Product1 .pro{
+    width: 25%;
+    justify-content: space-between;
+    flex-basis: 24%;
+    /* margin: 10px; */
+
+}
+#Product1 h1{
+    padding: 10px;
+    font-size: 36px;
+
+}
+
+
+/* #Product1 .fa-chevron-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 2px;
+    margin: 220px 5px 220px 5px;
+    }
+    #Product1 .fa-chevron-right{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      font-weight: 600;
+      padding: 2px;
+      margin: 220px 5px 220px 5px;
+    
+      } */

@@ -1,0 +1,137 @@
+
+#page-header{
+    align-items: center;
+    text-align: center;
+    background-image: url(img/banner.png);
+    color: white;
+}
+#page-header h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+#page-header p{
+    color: white;
+}
+
+#cart{
+    overflow-x: auto;
+}
+
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+
+}
+
+#cart table img{
+    width: 70px;
+}
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+
+}
+
+#cart table thead {
+    border: 1px solid #e2e9ae;
+    border-left: none;
+    border-right: none;
+
+}
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#cart table tbody tr td {
+    padding-top: 15px;
+}
+
+#cart table tbody td
+{
+    font-size: 13px;
+}
+
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#coupon{
+    width: 45%;
+    margin-bottom: 30px;
+
+}
+#coupon h3{
+    padding-bottom:15px;
+}
+#coupon input{
+    padding: 10px 20px ;
+    outline: none;
+    width: 50%;
+    border: 1px solid #e2e9ae;
+
+}
+#sub-total{
+    width: 45%;
+    margin: 30px;
+    border: 1px solid #e2e9ae;
+    padding: 20px;
+
+}
+#sub-total table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+
+
+}
+
+#sub-total table td{
+    width: 50%;
+    border: 1px solid #e2e9ae;
+    font-size: 13px;
+    padding: 12px;
+
+
+}
+
+/* #search a:hover,
+#search a.active {
+  color: #088178;
+}
+
+
+
+#search a.active::after,
+#search a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #088178;
+  position: absolute;
+  bottom: -4px;
+  left: 45px;
+} */

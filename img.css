@@ -1,0 +1,19 @@
+#img1{
+    /* text-align: center; */
+    align-content: center;
+}
+
+
+#img1 .col{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.hero-image {
+    background: url(/img/fas_food.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+  }

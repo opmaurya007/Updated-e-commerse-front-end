@@ -1,0 +1,89 @@
+#page-header{
+    align-items: center;
+    text-align: center;
+    background-image: url(img/banner.png);
+    color: white;
+}
+#page-header h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+#page-header p{
+    color: white;
+}
+
+#u-goal{
+    padding: 0px 40px 60px 40px;
+    margin: 0px 60px 0px 60px;
+    
+}
+
+#u-goal .goal-box{
+     display: flex;
+     align-items: center;
+justify-content: space-between;
+/* flex-wrap: wrap; */
+width: 100%;
+/* padding-bottom: 20px; */
+}
+#u-goal .goal-img{
+    padding-top: 0%;
+    width: 50%;
+    margin: auto;
+    /* margin-right: 40px; */
+    /* padding: 30px; */
+}
+#u-goal img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+#u-goal .goal-des{
+
+    
+    /* padding: 60px; */
+    /* margin-left: 60px; */
+    width: 50%;
+     /* margin-right: 40px;
+    padding: 30px; */
+} 
+#u-goal .goal-des a{
+
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(15, 14, 14);
+    font-weight: 600;
+    position: relative;
+}
+
+#u-goal .goal-des a::after{
+    content: "";
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 4x;
+    right: -60px;
+}
+
+#u-goal .goal-des a:hover{
+    background-color: green;
+}
+#u-goal .goal-des a:hover:after{
+    background-color: green;
+}
+
+#u-goal .goal-des h4{
+    padding: 20px;
+    font-size: 20px;
+    font-weight:300;
+}
+#u-goal .goal-des p,h4,a{
+   
+    padding: 0px 40px 0px 40px;
+
+}
+#u-goal .goal-des h4{
+    font-size: 40px;
+    font-weight: 300;
+}

@@ -1,0 +1,277 @@
+#invite{
+       /* display: flex; */
+        background-color: rgb(219, 219, 219);
+        box-shadow: 0 5px 2px rgba(0, 0, 0, 0.06);
+      }
+
+#invite .inv1{
+ 
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    /* background-image: url("img/bgfassfood.jpg"); */
+
+}
+#invite h4{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#invite button{
+    /* color: rgb(242, 106, 8); */
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 20px;
+  }
+  
+  /* #invite:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+  } */
+  
+
+  #all_products {
+  text-align: center;
+  
+
+  }
+
+  #all_products .cate1{
+    padding: 20px;
+    text-decoration: none;
+   
+
+  }
+
+  #all_products .slidecontainer {
+    width: 100%;
+    /* margin: 0px; */
+    padding: 10px 15px 10px 15px;
+    color: orangered;
+    /* padding: 10px 30px 10px 30px; */
+  }
+  
+
+
+  #all_products h6{
+    text-align: center;
+    color: orangered;
+    font-size: 12px;
+  }
+
+ 
+
+  #all_products span{
+
+    font-size: 15px;
+    padding: 10px;
+    /* margin: 5px; */
+  }
+
+  #all_products .fa-star{
+    color: rgb(247, 191, 10);
+  }
+
+  #all_products .fa-slider{
+    font-size: medium;
+  }
+
+  #all_products input,select{
+    margin: 5px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    border-color: rgb(208, 197, 197);
+  }
+
+  #all_products .pro-pro1{
+    display: flexbox; 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  }
+
+  #all_products .col{
+    flex: 18%;
+    max-width: 20%;
+
+    padding: 0 4px;
+  
+  }
+
+    .col img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+
+
+      #all_products .cate1{
+        border: 1px solid black;
+        text-align: left;
+        padding: 20px;
+      
+     
+      }
+
+      #all_products .pro-pro2{
+        border: 1px solid gray;
+   
+        padding: 10px;
+        margin: 10px;
+
+      }
+
+
+      #all_products .btn1{
+        background-color: rgb(221, 161, 11);
+        color: white;
+        padding: 15px;
+        border-radius: 20px;
+        border: none;
+        margin: -50% 20px 10px 20px;
+      }
+
+      #pagination{
+        /* align-items: center;
+        align-content: center; */
+        text-align: center;
+        text-decoration: none;
+        /* background-color: black; */
+        padding: 15px 20px;
+        
+      }
+
+      #pagination button{
+        border-radius: 20px;
+        border-color:  rgba(236, 229, 229, 0.616);
+        padding: 10px 20px 10px 20px;
+        margin:  10px 20px 10px 20px ;
+        background-color: white;
+      }
+
+      #pagination a {
+        padding: 10px;
+        color: black;
+        cursor: pointer;
+        text-decoration: none;
+        background-color: white;
+       
+      }
+
+      #pagination .fa-chevron-right{
+        margin:  2px 10px 2px 1px;
+      }
+      #pagination .fa-chevron-left{
+        margin: 2px 6px  2px 6px;
+        
+      }
+      #pagination a:hover{
+  
+        background-color: gray;
+      }
+      #pagination .active{
+        background-color: black;
+        color: white;
+      }
+
+
+
+    #sort{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #sort .select{
+        padding: 12px 80px 12px 20px;
+        margin: 20px;
+        border-radius: 20px;
+        border-color: rgb(127, 121, 121);
+        color: black;
+    }
+    
+    #sort span{
+        font-size: 5px;
+        padding:20px ;
+        color: rgb(240, 232, 232);
+    }
+    #sort h3{
+        padding: 12px 50px 12px 80px;
+        margin: 20px;
+    }
+
+
+  /* #all_products .pro-pro1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    }
+
+    #all_products .pro-pro2{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        width: 18%;
+        min-width: 200px;
+        height: fit-content;
+      
+        padding: 10px 12px;
+        border: 1px solid #6f716f;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(70,62, 221, 0.02);  
+        margin: 15px 0;
+        transition: 0.2s ease;
+        position: relative;
+      
+      }
+  
+
+  #all_products .pro-pro2 img{
+    width: 100%;
+    margin: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  #all_products .pro-pro2 .des{
+  text-align: center;
+  }
+  
+  #all_products .pro-pro2 .des span{
+    color: #606063;
+    font-size: 12px;
+  
+  }
+
+  #all_products button{
+    color: white;
+    background-color: orange;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+
+  }
+  #all_products .btn1{
+    margin-top: -200px 20px 20px 20px;
+  }
+  
+  #all_products:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+  }
+   */

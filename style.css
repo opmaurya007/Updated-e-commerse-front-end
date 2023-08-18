@@ -1,3 +1,20 @@
+button {
+  background-color: orangered;
+  color: white;
+  /* border-radius: 20px; */
+  padding: 10px 15px;
+  cursor: pointer;
+  border-color: none;
+
+}
+
+
+button:hover{
+  background-color: green;
+}
+
+
+
 .section-p1 {
   padding: 40px 80px;
 }
@@ -60,6 +77,15 @@ header .head2 .fa-brands:hover{
   background-color: whitesmoke;
   box-shadow: 0 5px 2px rgba(0, 0, 0, 0.06);
 }
+
+#search a{
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+#search .a1:hover{
+  background-color: green;
+}
 #search .search1 h3{
   color: #25d4c8;
   font-size: 20px;
@@ -115,6 +141,12 @@ header .head2 .fa-brands:hover{
   padding: 20px;
   
 }
+#nav2 .fa-chevron-down{
+  margin: 2px;
+  font-size: 16px;
+  font-weight: 600;
+  /* padding: 2px; */
+}
 #nav2 li {
   list-style: none;
   padding: 0 35px;
@@ -137,12 +169,12 @@ header .head2 .fa-brands:hover{
 #nav2 li a.active::after,
 #nav2 li a:hover::after {
   content: "";
-  width: 30%;
+  width:15%;
   height: 2px;
   background: #088178;
   position: absolute;
   bottom: -4px;
-  left: 45px;
+  left: 65px;
 }
 
 
@@ -244,6 +276,21 @@ margin: 2px;
   text-align: center;
 
 }
+
+#product h1{
+  
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1.5px solid orangered; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ 
+}
+#product h1 span { 
+    background:#fff; 
+    padding:0 12px; 
+}
+
 #product .fa-chevron-left{
 display: flex;
 justify-content: center;
@@ -341,78 +388,99 @@ text-align: center;
   border: none;
 }
 
-
+*{
+  margin: 0px;
+  padding: 0px;
+}
 
 
 
 #popular {
+  /* margin-top: 0%; */
   text-align: center;
+}
+#popular h1{
+  
+  width: 100%; 
+
+  border-bottom: 1.5px solid orangered; 
+  line-height: 0.1em;
+  margin: 10px ; 
+
+}
+#popular h1 span { 
+  background:#fff; 
+  padding:0 12px; 
+  font-size: 40px;
+  font-weight: 600;
+}
+#popular .h3{
+  padding: 30px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+
+#popular .pro-pop1,.pro-pop2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50vh;
+  
+  /* padding: 10px; */
+
 }
 
 
 
 #popular .pro-pop{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 20px;
-
+  align-items: flex-start;
+  text-align: start;
 }
 
 
 
 #popular .momo1 {
-
-  display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-
-  width: 45%;
-  min-width: 200px;
-  height: 30vh;
-  padding: 18px;
-  border: 1px solid #6f716f;
-  
+  border: 1px solid #6f716f;  
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(70,62, 221, 0.02);  
-  margin: 10px;
-  background-image: url(img/puri.jpeg);
+  margin: 20px;
+  background-image: url("img/bg/fas_food.jpg" );
   background-color: rgb(147, 151, 150);
   transition: 0.2s ease;
-  position: relative;
+  background-size: 645px 400px;
+  background-repeat: no-repeat;
+  position: relative; 
+  width: 100%;
+} 
+#popular .m1 {
+  background-image: url("img/bg/jonathan-borba-8l8Yl2ruUsg-unsplash.jpg");
+  width: 100%;
 }
 
-#popular .m1 {
-  background-image: url(img/fas_food.jpg);
-}
 #popular .m2 {
-  background-image: url(img/vegetables.jpg);
+  background-image: url(img/bg/momo.jpeg);
 }
+
 #popular .m3 {
-  background-image: url(img/momo.jpeg);
+  background-image: url(img/bg/vegetables.jpg);
 }
 
 #popular h4{
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 300;
-  margin: 20px;
+  margin: 60px;
 }
 
 #popular p{
+  color: white;
  
   font-size: 20px;
   font-weight: 300;
-  margin: 20px;
+  margin: 20px 80px 20px 60px;
 }
 
-#popular h2{
-  color:  black;
-  font-size: 40px;
-  font-weight: 600;
-  margin: 10px;
-}
 
 #popular hr{
   color: rgb(242, 106, 8);
@@ -421,15 +489,13 @@ align-items: flex-start;
 }
 
 #popular button{
-  color: rgb(242, 106, 8);
-  font-size: 20px;
-  font-weight: 600;
+ 
   border-radius: 20px;
   border: none;
   padding: 10px;
   cursor: pointer;
   transition: 0.2s;
-  margin: 20px;
+  margin: 20px 80px 20px 60px;
 }
 
 #popular .momo1:hover button{
@@ -545,14 +611,15 @@ align-items: flex-start;
 }
 
 #newsletter h1{
-  font-size: 25px;
+  font-size: 40px;
+  font-weight: 600;
   padding: 5px 0;
   margin: 0px;
 }
 
 #newsletter p{
   padding: 1px;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -595,6 +662,10 @@ align-items: flex-start;
   width: 8px;
   justify-content: space-around;
   align-items: center; 
+}
+
+#details a:hover{
+  background-color: green;
 }
 
 
